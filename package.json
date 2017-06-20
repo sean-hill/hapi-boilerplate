@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Public facing API for Unbill services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "keywords": [
+    "unbill",
+    "api"
+  ],
+  "author": "sean.hill@q2ebanking.com",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^5.1.0",
+    "hapi": "16.3.0",
+    "joi": "10.5.2"
+  },
+  "devDependencies": {
+    "code": "^4.1.0",
+    "lab": "^14.0.1"
+  }
+}
