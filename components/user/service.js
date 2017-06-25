@@ -11,3 +11,7 @@ exports.world = () => {
 exports.boom = () => {
   return Promise.reject(Boom.badRequest('Boom!'))
 }
+
+exports.echo = echo => {
+  return Promise.resolve(`Echo: ${echo}!`)
+}

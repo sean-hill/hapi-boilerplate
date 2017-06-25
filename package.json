@@ -15,7 +15,10 @@
   "dependencies": {
     "boom": "^5.1.0",
     "hapi": "16.3.0",
-    "joi": "10.5.2"
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "joi": "^10.5.2",
+    "vision": "^4.1.1"
   },
   "devDependencies": {
     "code": "^4.1.0",
